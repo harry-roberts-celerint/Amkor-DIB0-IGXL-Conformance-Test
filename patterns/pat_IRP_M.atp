@@ -1,0 +1,103 @@
+import tset TSet5;
+vm_vector        
+shmoocapture2     ( $tset, all_dig)
+{
+start_label start_pat_IRP_M:
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+call IRP_loop_2   > TSet5  0000000; 
+halt              > TSet5  0000000; 
+}
+srm_vector       
+MODULE2           ( $tset, all_dig)
+{
+global subr IRP_loop_2:
+                  > TSet5  0000000; 
+set_msb 100       > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+loop c4           > TSet5  0000000; 
+pulse_lp:
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  MMMMMMM; 
+                  > TSet5  0000000; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  1111111; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+                  > TSet5  0000000; 
+end_loop pulse_lp > TSet5  0000000; 
+                  > TSet5  0000000; 
+return            > TSet5  0000000; 
+}

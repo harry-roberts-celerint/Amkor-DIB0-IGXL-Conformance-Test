@@ -1,0 +1,112 @@
+import tset TSet5;
+vm_vector
+shmoocapture2 ( $tset, dig_contact_R1, dig_contact_R2, dig_contact_R3, dig_contact_R4)
+{
+start_label start_pat_IRP_CPD:
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+ > TSet5 0 0 0 0; 
+
+call IRP_loop_2
+ > TSet5 0 0 0 0; 
+halt
+ > TSet5 0 0 0 0; 
+}
+
+srm_vector MODULE2 ($tset, dig_contact_R1, dig_contact_R2, dig_contact_R3, dig_contact_R4) {
+global subr IRP_loop_2:
+                  >    TSet5 0 0 0 0;
+set_msb 100       >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+set c4 1000       >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+loop c4           >    TSet5 0 0 0 0;
+pulse_lp:
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 L L L L;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 1 1 1 1;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+end_loop pulse_lp >    TSet5 0 0 0 0;
+                  >    TSet5 0 0 0 0;
+return            >    TSet5 0 0 0 0;
+}

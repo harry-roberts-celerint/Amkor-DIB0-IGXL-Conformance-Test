@@ -1,0 +1,112 @@
+import tset TSet4;
+vm_vector
+pat_IRP ( $tset, IRP_pins)
+{
+start_label start_pat_IRP:
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+ > TSet4 0000; 
+
+call shmooloop
+ > TSet4 0000; 
+halt
+ > TSet4 0000; 
+}
+
+srm_vector MODULE3 ($tset, IRP_pins) {
+global subr shmooloop:
+                  >    TSet4 0000;
+set_msb 100       >    TSet4 0000;
+                  >    TSet4 0000;
+set c4 1000       >    TSet4 0000;
+                  >    TSet4 0000;
+loop c4           >    TSet4 0000;
+pulse_lp:
+                  >    TSet4 0000;
+                  >    TSet4 0000;
+                  >    TSet4 LLLL;
+                  >    TSet4 0000;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 1111;
+                  >    TSet4 0000;
+                  >    TSet4 0000;
+                  >    TSet4 0000;
+                  >    TSet4 0000;
+                  >    TSet4 0000;
+end_loop pulse_lp >    TSet4 0000;
+                  >    TSet4 0000;
+return            >    TSet4 0000;
+}

@@ -1,0 +1,3 @@
+Compiling Pattern pat_IRP_M.atp ...
+ File: pat_IRP_M.atp, line  3:Error opening file X:\dib0\dib0 IGXL program files\patterns\pat_IRP_M.pat: The process cannot access the file because it is being used by another process. 
+FATAL ERROR:  File: pat_IRP_M.atp, line  3:Cannot open pattern binary file X:\dib0\dib0 IGXL program files\patterns\pat_IRP_M.pat for write.
